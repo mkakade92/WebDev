@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>My WebPage</title>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+
+  <body>
+    <p class="myInfo">
+      MY Name is  <span id="colorText">XYZ</span>;
+    </p>
+
+    <form class="loginForm" action="index.html" method="post">
+      <div class="imgContainer">
+        <img src="thomas-despeyroux-kT27HRV44FY-unsplash.jpg" alt="beutiful image" class="beutifulImage">
+      </div>
+      <div class="container">
+          <label for="uname"><b>Username</b></label>
+          <input type="text" placeholder="Enter Username" name="uname" required>
+
+          <label for="psw"><b>Password</b></label>
+          <input type="password" placeholder="Enter Password" name="psw" required>
+
+          <button type="submit">Login</button>
+          <label>
+            <input type="checkbox" checked="checked" name="remember"> Remember me
+          </label>
+        </div>
+        <div class="container" style="background-color:#f1f1f1">
+          <button type="button" class="cancelbtn">Cancel</button>
+          <span class="psw">Forgot <a href="#">password?</a></span>
+        </div>
+    </form>
+
+  </body>
+</html>
